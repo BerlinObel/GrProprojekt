@@ -34,6 +34,8 @@ public class SeriesReader {
                 double rating = Double.parseDouble(info[3].trim());
                 String[] seasoninfo = info[4].split(",");
                 int seasons = seasoninfo.length;
+                int episodes = 0;
+                for(int i = )
                 Serie s = new Serie();
                 series.add(s);
 
