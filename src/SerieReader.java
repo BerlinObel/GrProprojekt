@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SeriesReader {
+public class SerieReader {
     private String fileName;
 
-    public SeriesReader(String fileName) {
+    public SerieReader(String fileName) {
         this.fileName = fileName;
     }
 
@@ -28,15 +28,20 @@ public class SeriesReader {
                 String name = info[0];
                 String[] yearinfo = info[1].split("-");
                 int startyear = Integer.parseInt(yearinfo[0].trim());
-                int endyear = Integer.parseInt(yearinfo[1].trim());
+                int endyear = 2018;
+                if(yearinfo.length == 2 && !yearinfo[1].trim().equals("")){
+                    endyear = Integer.parseInt(yearinfo[1].trim());}
                 String genreinfo = info[2].trim();
                 String[] genre = genreinfo.split(",");
                 double rating = Double.parseDouble(info[3].trim());
                 String[] seasoninfo = info[4].split(",");
                 int seasons = seasoninfo.length;
                 int episodes = 0;
-                for(int i = )
-                Serie s = new Serie();
+                for(int i = 0; i < seasons; i++){
+                    String[] episodeinfo = seasoninfo[i].split("-");
+                    episodes += Integer.parseInt(episodeinfo[1]);
+                }
+                Serie s = new Serie(name,startyear,endyear,genre,rating,seasons,episodes);
                 series.add(s);
 
             }

@@ -23,8 +23,12 @@ public class Serie {
 
     public String toString(){
         DecimalFormat df = new DecimalFormat("0.#");
-        return String.format("%s: %d-%d: %d: %d %s: " + df.format(rating),
-                name, startyear, endyear, seasons, episodes, genre);
+        StringBuilder g = new StringBuilder();
+        for (String aGenre : genre) {
+            g.append(aGenre);
+        }
+        return String.format("Name: %s Dates: %d-%d Seasons: %d Episodes: %d Genres: %s Rating: " + df.format(rating),
+                name, startyear, endyear, seasons, episodes, g.toString());
 
     }
 }
