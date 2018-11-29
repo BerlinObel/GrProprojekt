@@ -8,6 +8,7 @@ public class Serie {
     private double rating;
     private int seasons;
     private int episodes;
+    private int[] episodelist;
 
 
     public Serie(String name, int startyear, int endyear, String[] genre, double rating, int seasons, int episodes) {
