@@ -1,2 +1,3 @@
 # GrProprojekt
-thomas, bragiiii og oscar grpro projekt
+gruppe AK
+demont, brage og obel grpro projekt
