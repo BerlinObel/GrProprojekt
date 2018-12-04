@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 
-public class Film {
+public class Film  extends Media {
     private String name;
     private int year;
     private String[] genre;

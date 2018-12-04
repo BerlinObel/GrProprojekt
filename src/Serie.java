@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 
-public class Serie {
+public class Serie extends Media {
     private String name;
     private int startyear;
     private int endyear;
