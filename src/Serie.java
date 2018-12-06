@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 public class Serie extends Media {
     private int startyear;
@@ -8,7 +9,7 @@ public class Serie extends Media {
     private int[] episodelist;
 
 
-    public Serie(String title, int startyear, int endyear, String[] genre, double rating, int seasons, int episodes) {
+    public Serie(String title, int startyear, int endyear, ArrayList<String> genre, double rating, int seasons, int episodes) {
         super(title,genre,rating);
         this.startyear = startyear;
         this.endyear = endyear;
@@ -19,7 +20,7 @@ public class Serie extends Media {
     public String toString(){
         DecimalFormat df = new DecimalFormat("0.#");
         StringBuilder g = new StringBuilder();
-        for (String aGenre : genre) {
+        for (GENRE aGenre : genre) {
             g.append(aGenre);
         }
         return String.format("Name: %s Dates: %d-%d Seasons: %d Episodes: %d Genres: %s Rating: " + df.format(rating),

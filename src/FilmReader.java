@@ -28,9 +28,9 @@ public class FilmReader {
                 String name = info[0];
                 int year = Integer.parseInt(info[1].trim());
                 String genreinfo = info[2].trim();
-                String[] genre = genreinfo.split(",");
+                ArrayList<String> genre = genreinfo.split(",");
                 double rating = Double.parseDouble(info[3].trim());
-                Film f = new Film(name,year, genre,rating);
+                Film f = new Film(name,year,genre,rating);
                 films.add(f);
 
             }
