@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Film  extends Media {
     private int year;
 
-    private Film(String title, int year, ArrayList<String> genre, double rating) {
+    public Film(String title, int year, String[] genre, double rating) {
         super(title, genre, rating);
         this.year = year;
     }

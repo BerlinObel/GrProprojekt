@@ -32,7 +32,7 @@ public class SerieReader {
                 if(yearinfo.length == 2 && !yearinfo[1].trim().equals("")){
                     endyear = Integer.parseInt(yearinfo[1].trim());}
                 String genreinfo = info[2].trim();
-                ArrayList<String> genre = genreinfo.split(",");
+                String[] genre = genreinfo.split(",");
                 double rating = Double.parseDouble(info[3].trim());
                 String[] seasoninfo = info[4].split(",");
                 int seasons = seasoninfo.length;

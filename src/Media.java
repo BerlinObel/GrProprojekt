@@ -4,16 +4,20 @@ public abstract class Media {
     protected ArrayList<GENRE> genre;
     protected double rating;
 
-    public Media(String title, ArrayList<String> genre, double rating){
+    public Media(String title, String[] genres, double rating){
         this.title = title;
-        this.genre = parseGenre(genre);
         this.rating = rating;
+        genre = new ArrayList<>();
+        for (String type : genres){
+            GENRE n = parseGenre(type);
+            genre.add(n);
+        }
     }
     enum GENRE {
         Crime, Drama, History, Biography, Sport, Romance, War, Mystery, Adventure, Family, Fantasy, Thriller, FilmNoir, Musical, SciFi, Comedy, Action, Western, Horror, Music, Unknown
     }
 
-    private GENRE parseGenre(String genre){
+    public GENRE parseGenre(String genre){
         switch (genre.toLowerCase()){
             case "crime": return GENRE.Crime;
             case "drama": return GENRE.Drama;

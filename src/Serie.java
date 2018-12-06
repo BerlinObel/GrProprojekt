@@ -9,7 +9,7 @@ public class Serie extends Media {
     private int[] episodelist;
 
 
-    public Serie(String title, int startyear, int endyear, ArrayList<String> genre, double rating, int seasons, int episodes) {
+    public Serie(String title, int startyear, int endyear, String[] genre, double rating, int seasons, int episodes) {
         super(title,genre,rating);
         this.startyear = startyear;
         this.endyear = endyear;
