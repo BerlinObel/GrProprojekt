@@ -1,16 +1,11 @@
 import java.text.DecimalFormat;
 
 public class Film  extends Media {
-    private String name;
     private int year;
-    private String[] genre;
-    private double rating;
 
-    public Film(String name, int year, String[] genre, double rating) {
-        this.name = name;
+    private Film(String title, int year, String[] genre, double rating) {
+        super(title, genre, rating);
         this.year = year;
-        this.genre = genre;
-        this.rating = rating;
     }
 
     enum GENRE {
@@ -50,7 +45,7 @@ public class Film  extends Media {
             g.append(aGenre);
         }
         return String.format("%s: %d: %s: " + df.format(rating),
-                name, year, g.toString());
+                title, year, g.toString());
 
     }
 
