@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8b8694-17cd-41be-8bd9-2b52e17c1cfe" name="Default Changelist" comment="media">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/view.fxml" afterDir="false" />
+    <list default="true" id="8f8b8694-17cd-41be-8bd9-2b52e17c1cfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Viewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +29,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -47,12 +43,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="372" />
-          <entry key="java" value="934" />
+          <entry key="java" value="1105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="934" />
+          <entry key="JAVA" value="1105" />
           <entry key="XML" value="372" />
         </counts>
       </usages-collector>
@@ -183,12 +179,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="-383">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#940#941#0" expanded="true" />
                 <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#4044#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,8 +219,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/view.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -248,9 +256,10 @@
         <option value="$PROJECT_DIR$/src/view/Controller.java" />
         <option value="$PROJECT_DIR$/src/Viewer.java" />
         <option value="$PROJECT_DIR$/src/view.fxml" />
-        <option value="$PROJECT_DIR$/src/view/Viewer.java" />
         <option value="$PROJECT_DIR$/src/view/ViewController.java" />
         <option value="$PROJECT_DIR$/src/view/view.fxml" />
+        <option value="$USER_HOME$/Downloads/Login/src/login/Login.java" />
+        <option value="$PROJECT_DIR$/src/view/Viewer.java" />
       </list>
     </option>
   </component>
@@ -301,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544526333075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544528636085" />
     <property name="last_opened_file_path" value="B:/dumb shit/Swing Workshop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -406,7 +415,7 @@
       <workItem from="1543320632714" duration="270000" />
       <workItem from="1543919357751" duration="6371000" />
       <workItem from="1544090772817" duration="7862000" />
-      <workItem from="1544520851209" duration="4508000" />
+      <workItem from="1544520851209" duration="6090000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1543320758475</created>
@@ -422,14 +431,22 @@
       <option name="project" value="LOCAL" />
       <updated>1543922338054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="media">
+      <created>1544526577357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544526577358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23180000" />
+    <option name="totallyTimeSpent" value="24762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -579,16 +596,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/view.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#4044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="-383">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#940#941#0" expanded="true" />
