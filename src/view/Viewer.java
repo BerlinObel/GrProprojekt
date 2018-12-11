@@ -14,6 +14,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
 
 public class Viewer extends Application {
@@ -28,47 +30,71 @@ public class Viewer extends Application {
 */
         @Override
         public void start(Stage primaryStage) {
-            primaryStage.setTitle("JavaFX Welcome");
+            primaryStage.setTitle("Fletnix Welcome");
             GridPane grid = new GridPane();
             grid.setAlignment(Pos.CENTER);
             grid.setHgap(10);
             grid.setVgap(10);
+            grid.setStyle("-fx-background-color: #323232;");
             grid.setPadding(new Insets(25, 25, 25, 25));
 
             Scene scene = new Scene(grid, 300, 275);
             primaryStage.setScene(scene);
 
-            Text scenetitle = new Text("Welcome");
-            scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
-            grid.add(scenetitle, 0, 0, 2, 1);
+            Image image = new Image("FletnixLogo.png");
+            ImageView titleLogo = new ImageView();
+            titleLogo.setFitWidth(240);
+            titleLogo.setFitHeight(100);
+            titleLogo.setImage(image);
+            grid.add(titleLogo, 0, 0, 2, 1);
 
             Label userName = new Label("User Name:");
+            userName.setTextFill(Color.WHITE);
             grid.add(userName, 0, 1);
 
             TextField userTextField = new TextField();
+            userTextField.setStyle("-fx-background-color: #505050; -fx-text-inner-color: #969696;");
             grid.add(userTextField, 1, 1);
 
             Label pw = new Label("Password:");
+            pw.setTextFill(Color.WHITE);
             grid.add(pw, 0, 2);
 
             PasswordField pwBox = new PasswordField();
+            pwBox.setStyle("-fx-background-color: #505050; -fx-text-inner-color: #969696;");
             grid.add(pwBox, 1, 2);
 
-            Button btn = new Button("Sign in");
-            HBox hbBtn = new HBox(10);
-            hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
-            hbBtn.getChildren().add(btn);
-            grid.add(hbBtn, 1, 4);
+            Button sign = new Button("Sign in");
+            HBox hbsign = new HBox(10);
+            hbsign.setAlignment(Pos.BOTTOM_RIGHT);
+            hbsign.getChildren().add(sign);
+            grid.add(hbsign, 1, 4);
 
             final Text actiontarget = new Text();
             grid.add(actiontarget, 1, 6);
 
-            btn.setOnAction(new EventHandler<ActionEvent>() {
+            sign.setOnAction(new EventHandler<ActionEvent>() {
 
                 @Override
                 public void handle(ActionEvent e) {
                     actiontarget.setFill(Color.FIREBRICK);
-                    actiontarget.setText("Sign in button pressed");
+                    actiontarget.setText("Sign in Failed");
+                }
+            });
+
+            Button reg = new Button("Register");
+            HBox hbreg = new HBox(10);
+            hbreg.setAlignment(Pos.BOTTOM_LEFT);
+            hbreg.getChildren().add(reg);
+            grid.add(hbreg, 1, 4);
+
+            reg.setOnAction(new EventHandler<ActionEvent>() {
+
+                @Override
+                public void handle(ActionEvent e) {
+                    actiontarget.setFill(Color.FIREBRICK);
+                    actiontarget.setText("Registration Unavailable");
+
                 }
             });
 

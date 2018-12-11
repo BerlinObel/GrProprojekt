@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8b8694-17cd-41be-8bd9-2b52e17c1cfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/FilmReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/SerieReader.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,13 +30,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="17" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -43,12 +46,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="372" />
-          <entry key="java" value="1105" />
+          <entry key="java" value="1434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1105" />
+          <entry key="JAVA" value="1434" />
           <entry key="XML" value="372" />
         </counts>
       </usages-collector>
@@ -122,15 +125,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilmReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Film.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -149,26 +143,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerieReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Media.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
-                <element signature="e#1784#1785#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1881#1882#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
                 <element signature="e#1985#1986#0" expanded="true" />
                 <element signature="e#2020#2021#0" expanded="true" />
               </folding>
@@ -176,11 +155,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MediaReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#4044#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-383">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="173">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#940#941#0" expanded="true" />
@@ -190,19 +191,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#4044#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ViewController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -299,6 +288,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GrProprojekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="GrProprojekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="GrProprojekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="GrProprojekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544528636085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544534507764" />
     <property name="last_opened_file_path" value="B:/dumb shit/Swing Workshop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -415,7 +426,7 @@
       <workItem from="1543320632714" duration="270000" />
       <workItem from="1543919357751" duration="6371000" />
       <workItem from="1544090772817" duration="7862000" />
-      <workItem from="1544520851209" duration="6090000" />
+      <workItem from="1544520851209" duration="8759000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1543320758475</created>
@@ -442,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24762000" />
+    <option name="totallyTimeSpent" value="27431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -459,7 +470,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -568,28 +579,10 @@
     <entry file="file://$PROJECT_DIR$/src/Media.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
             <element signature="e#1985#1986#0" expanded="true" />
             <element signature="e#2020#2021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,24 +595,47 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MediaReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FletnixLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
           <folding>
             <element signature="e#0#4044#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="173">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#940#941#0" expanded="true" />
             <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
