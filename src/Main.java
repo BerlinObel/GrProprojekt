@@ -3,11 +3,26 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        SerieReader fr = new SerieReader("C:\\Users\\Bruger\\Desktop\\SeriesReader\\src\\Serie.txt");
+        MediaReader mr = new MediaReader("C:\\Users\\Bruger\\Desktop\\GrProprojekt-master\\src\\Media.txt");
         try{
-            List<Serie> series = fr.read();
-            for(Serie s: series){
-                System.out.println(s);
+            List<Media> medias = mr.read();
+            Sorter s = new Sorter();
+
+            List<Media> searchedmedia = s.search(medias,"y");
+            for(Media m: searchedmedia){
+                System.out.println(m);
+            }
+            System.out.println();
+
+            List<Media> dramamedia = s.genreSearch(searchedmedia, Media.GENRE.Drama);
+            for(Media m: dramamedia){
+                System.out.println(m);
+            }
+            System.out.println();
+
+            s.ratingHigh(dramamedia);
+            for(Media m: dramamedia){
+                System.out.println(m);
             }
         } catch (IOException e){
             e.printStackTrace();

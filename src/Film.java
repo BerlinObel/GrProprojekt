@@ -9,17 +9,30 @@ public class Film  extends Media {
         this.year = year;
     }
 
-
-
-    public String toString(){
+    public String toString() {
         DecimalFormat df = new DecimalFormat("0.#");
         StringBuilder g = new StringBuilder();
         for (GENRE aGenre : genre) {
             g.append(aGenre);
-        }
-        return String.format("%s: %d: %s: " + df.format(rating),
+            g.append(" ");}
+        return String.format("Name: %s: Year: %d: Genres: %s: Rating: " + df.format(rating),
                 title, year, g.toString());
+    }
 
+    public String getTitle () {
+        return title;
+    }
+
+    public ArrayList<GENRE> getGenre () {
+        return genre;
+    }
+
+    public double getRating () {
+        return rating;
+    }
+
+    public void addGenre (GENRE newgenre){
+        genre.add(newgenre);
     }
 
 }

@@ -22,9 +22,25 @@ public class Serie extends Media {
         StringBuilder g = new StringBuilder();
         for (GENRE aGenre : genre) {
             g.append(aGenre);
+            g.append(" ");
         }
         return String.format("Name: %s Dates: %d-%d Seasons: %d Episodes: %d Genres: %s Rating: " + df.format(rating),
                 title, startyear, endyear, seasons, episodes, g.toString());
+    }
 
+    public String getTitle(){
+        return title;
+    }
+
+    public ArrayList<GENRE> getGenre(){
+        return genre;
+    }
+
+    public double getRating(){
+        return rating;
+    }
+
+    public void addGenre(GENRE newgenre){
+        genre.add(newgenre);
     }
 }
