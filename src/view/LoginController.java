@@ -45,12 +45,4 @@ public class LoginController {
         stage.centerOnScreen();
     }
 
-    @FXML
-    protected void handleRegisterButtonAction(ActionEvent actionEvent) throws IOException {
-        stage = (Stage) registerButton.getScene().getWindow();
-        GridPane root;
-        root = FXMLLoader.load(getClass().getResource("Register.fxml"));
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-    }
 }

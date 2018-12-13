@@ -25,9 +25,9 @@ public class MenuController {
     public ImageView img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12;
     public Label text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12;
     @FXML
-    private ArrayList<Label> textList;
+    private List<Label> textList;
     @FXML
-    private ArrayList<ImageView> imgList;
+    private List<ImageView> imgList;
     private int page = 0;
 
     private MediaReader mr = new MediaReader("/Users/oscarobel/Media.txt");
@@ -38,6 +38,9 @@ public class MenuController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        List<Label> textList = new ArrayList<Label>();
+        List<ImageView> imgList = new ArrayList<ImageView>();
+
     }
 
 
@@ -63,7 +66,7 @@ public class MenuController {
     }
 
     public void handlePrevButtonAction(ActionEvent actionEvent) {
-        for(int i=11;i>0; i--){
+        for(int i=11;i>-1; i--){
             StringBuilder pic = new StringBuilder();
             pic.append("/");
             pic.append(medias.get(i-page).getClass().getName().replace(".","/"));
