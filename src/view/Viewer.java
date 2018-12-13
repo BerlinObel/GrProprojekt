@@ -28,10 +28,10 @@ public class Viewer extends Application {
         public void start(Stage primaryStage) throws Exception {
             this.primaryStage = primaryStage;
             FXMLLoader loader = new FXMLLoader(getClass()
-                    .getResource("Login.fxml"));
+                    .getResource("Menu.fxml"));
             Parent root = loader.load();
             primaryStage.setTitle("Fletnix");
-            primaryStage.setScene(new Scene(root, 350, 300));
+            primaryStage.setScene(new Scene(root, 1400, 800));
             primaryStage.setResizable(false);
             primaryStage.show();
         }

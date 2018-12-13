@@ -1,6 +1,7 @@
 package view;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
@@ -23,7 +24,22 @@ public class MenuController {
     public VBox box1, box2, box3, box4, box5, box6, box7, box8, box9, box10, box11, box12;
     public ImageView img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12;
     public Label text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12;
-    
+    @FXML
+    private ArrayList<Label> textList;
+    @FXML
+    private ArrayList<ImageView> imgList;
+    private int page = 0;
+
+    private MediaReader mr = new MediaReader("/Users/oscarobel/Media.txt");
+    private List<Media> medias = null;
+    public void initialize(){
+        try {
+            medias = mr.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public void handleFavoritesButtonAction(ActionEvent actionEvent) {
     }
@@ -31,27 +47,36 @@ public class MenuController {
     public void handleLogoutButtonAction(ActionEvent actionEvent) {
     }
 
-    public void handlePrevButtonAction(ActionEvent actionEvent) {
-        MediaReader mr = new MediaReader("/Users/oscarobel/Media.txt");
-        List<Media> medias = null;
-        try {
-            medias = mr.read();
-        } catch (IOException e) {
-            e.printStackTrace();
+    public void handleNextButtonAction(ActionEvent actionEvent) {
+        for(int i=0; i < 12; i++){
+            StringBuilder pic = new StringBuilder();
+            pic.append("/");
+            pic.append(medias.get(i+page).getClass().getName().replace(".","/"));
+            pic.append("/");
+            pic.append(medias.get(i+page).getTitle());
+            pic.append(".jpg");
+            Image image = new Image(pic.toString());
+            imgList.get(i).setImage(image);
+            textList.get(i).setText(medias.get(i+page).getTitle());
         }
-
-        StringBuilder pic = new StringBuilder();
-        pic.append("/");
-        pic.append(medias.get(7).getClass().getName().replace(".","/"));
-        pic.append("/");
-        pic.append(medias.get(7).getTitle());
-        pic.append(".jpg");
-        Image image = new Image(pic.toString());
-        img6.setImage(image);
-        text6.setText(medias.get(7).getTitle());
-
+        page+=12;
     }
 
-    public void handleNextButtonAction(ActionEvent actionEvent) {
+    public void handlePrevButtonAction(ActionEvent actionEvent) {
+        for(int i=11;i>0; i--){
+            StringBuilder pic = new StringBuilder();
+            pic.append("/");
+            pic.append(medias.get(i-page).getClass().getName().replace(".","/"));
+            pic.append("/");
+            pic.append(medias.get(i-page).getTitle());
+            pic.append(".jpg");
+            Image image = new Image(pic.toString());
+            imgList.get(i).setImage(image);
+            textList.get(i).setText(medias.get(i-page).getTitle());
+        }
+        page-=12;
+    }
+
+    public void btn12Action(ActionEvent actionEvent) {
     }
 }

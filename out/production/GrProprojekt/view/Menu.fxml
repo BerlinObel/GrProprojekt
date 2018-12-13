@@ -9,6 +9,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
+<?import java.util.ArrayList?>
 
 <BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="view.MenuController"
             prefHeight="1400.0" prefWidth="800.0">
@@ -85,7 +86,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="24" fx:id="text1"/>
+                <Label text="24" fx:id="text1" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box2" spacing="10">
                 <Button prefWidth="140" prefHeight="209" mnemonicParsing="false">
@@ -95,7 +96,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="12 Angry Men" fx:id="text2"/>
+                <Label text="12 Angry Men" fx:id="text2" wrapText="true" maxWidth="140" maxHeight="40" />
             </VBox>
             <VBox fx:id="box3" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -105,17 +106,17 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="2001 A Space Odessey" fx:id="text3"/>
+                <Label text="2001 A Space Odessey" fx:id="text3" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box4" spacing="10">
-                <Button prefWidth="140" prefHeight="209" maxHeight="209" maxWidth="140" >
+                <Button prefWidth="140" prefHeight="209">
                     <graphic>
                         <ImageView fx:id="img4">
                             <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text4"/>
+                <Label text="Fargo" fx:id="text4" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box5" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -125,7 +126,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text5"/>
+                <Label text="Fargo" fx:id="text5" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box6" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -135,7 +136,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text6"/>
+                <Label text="Fargo" fx:id="text6" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box7" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -145,7 +146,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text7"/>
+                <Label text="Fargo" fx:id="text7" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box8" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -155,7 +156,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text8"/>
+                <Label text="Fargo" fx:id="text8" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box9" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -165,7 +166,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text9"/>
+                <Label text="Fargo" fx:id="text9" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box10" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -175,7 +176,7 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text10"/>
+                <Label text="Fargo" fx:id="text10" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box11" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
@@ -185,18 +186,50 @@
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text11"/>
+                <Label text="Fargo" fx:id="text11" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
             <VBox fx:id="box12" spacing="10">
-                <Button prefWidth="140" prefHeight="209">
+                <Button prefWidth="140" prefHeight="209" onAction="#btn12Action">
                     <graphic>
                         <ImageView fx:id="img12">
                             <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
                         </ImageView>
                     </graphic>
                 </Button>
-                <Label text="Fargo" fx:id="text12"/>
+                <Label text="Fargo" fx:id="text12" wrapText="true" maxWidth="140" maxHeight="40"/>
             </VBox>
+            <fx:define>
+                <ArrayList fx:id="textList">
+                    <fx:reference source="text1" />
+                    <fx:reference source="text2" />
+                    <fx:reference source="text3" />
+                    <fx:reference source="text4" />
+                    <fx:reference source="text5" />
+                    <fx:reference source="text6" />
+                    <fx:reference source="text7" />
+                    <fx:reference source="text8" />
+                    <fx:reference source="text9" />
+                    <fx:reference source="text10" />
+                    <fx:reference source="text11" />
+                    <fx:reference source="text12" />
+                </ArrayList>
+            </fx:define>
+            <fx:define>
+                <ArrayList fx:id="imgList">
+                    <fx:reference source="img1" />
+                    <fx:reference source="img2" />
+                    <fx:reference source="img3" />
+                    <fx:reference source="img4" />
+                    <fx:reference source="img5" />
+                    <fx:reference source="img6" />
+                    <fx:reference source="img7" />
+                    <fx:reference source="img8" />
+                    <fx:reference source="img9" />
+                    <fx:reference source="img10" />
+                    <fx:reference source="img11" />
+                    <fx:reference source="img12" />
+                </ArrayList>
+            </fx:define>
         </FlowPane>
     </center>
 
