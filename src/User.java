@@ -2,26 +2,28 @@ import java.util.ArrayList;
 public class User {
     private String name;
     private ArrayList<Media> favorites;
-    private Boolean Admin;
+    private Boolean admin;
+    private Boolean active;
     public User(String name){
         this.name = name;
         favorites = new ArrayList<>();
-        Admin = false;
+        admin = false;
+        active= false;
         }
 
-        String getName(){
+        public String getName(){
             return name;
         }
 
-        ArrayList<Media> getFavorites(){
+        public ArrayList<Media> getFavorites(){
             return favorites;
         }
 
-        void addFavorites(Media n){
+        public void addFavorites(Media n){
             favorites.add(n);
         }
 
-        void removeFavorites(Media n){
+        public void removeFavorites(Media n){
             for (int i = 0; i<favorites.size();i++){
                 if(favorites.get(i).equals(n)){
                     favorites.remove(i);
@@ -29,12 +31,14 @@ public class User {
             }
         }
 
-        void makeAdmin(){
-            Admin = true;
+        public void makeAdmin(){
+            admin = true;
         }
-        void revokeAdmin(){
-            Admin = false;
+        public void revokeAdmin(){
+            admin = false;
         }
+        public void activate(){active = true;}
+        public void deactivate(){active = false;}
 
 
 }
