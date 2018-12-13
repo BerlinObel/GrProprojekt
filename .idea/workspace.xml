@@ -2,12 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8b8694-17cd-41be-8bd9-2b52e17c1cfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/view/AlertHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/12 Angry Men.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/2001 A Space Odessey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/A Clockwork Orange.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/A Philadelphia Story.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/A Place In The Sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/A Streetcar Named Desire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/All Quiet On The Western Front.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Amadeus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/American Graffiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/An American In Paris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Annie Hall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Apocalypse Now.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Ben Hur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Bonny And Clyde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Braveheart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Butch Cassidy And The Sundance Kid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Casablanca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Chinatown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Citizen Kane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/City Lights.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Close Encounters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Dances With Wolves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Doctor Zhivago.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Double Indemnity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Dr. Strangelove Or How I Learned To Stop Worrying And Love The Bomb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/ET.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Fargo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Forrest Gump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/From Here To Eternity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Giant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Gladiator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Gone With The Wind.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Good Will Hunting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Goodfellas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Grapes Of Wrath.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/High Noon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/It Happened One Night.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/It's A Wonderful Life.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Jaws.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Jurassic Park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Lawrence Of Arabia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Lord Of The Rings - The Return Of The King.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Midnight Cowboy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Mr Smith Goes To Washington.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Mutiny On The Bounty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/My Fair Lady.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Nashville.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Network.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/North By Northwest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/On The Waterfront.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/One Flew Over The Cuckoo's Nest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Patton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Platoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Psycho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Pulp Fiction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Raging Bull.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Raiders Of The Lost Ark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Rain Man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Rear Window.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Rebel Without A Cause.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Rocky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Saving Private Ryan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Schindler's List.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Shane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Singin' In The Rain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Some Like It Hot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Stagecoach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Star Wars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Sunset Boulevard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Taxi Driver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Terms of Endearment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The African Queen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Apartment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Best Years Of Our Lives.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Bridge Over The River Kwai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Deer Hunter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Exorcist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The French Connection.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Godfather part II.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Godfather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Good, The Bad And The Ugly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Graduate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Great Dictator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Green Mile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Maltese Falcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Pianist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Searchers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Shawshank Redemption.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Silence Of The Lambs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Sound Of Music.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Third Man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Treasure Of The Sierra Madre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/The Wizard Of Oz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Titanic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/To Kill A Mockingbird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Unforgiven.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Vertigo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/West Side Story.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Wuthering Heights.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Film/Yankee Doodle Dandy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Alfred Hitchcock Presents.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/All In The Family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Ally McBeal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Angel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Arrested Development.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Band Of Brothers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Banshee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Batman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Battlestar Galactica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Better Call Saul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Big Little Lies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Billions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Boardwalk Empire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Breaking Bad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Buffy The Vampire Slayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Californication.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Cheers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Crisis In Six Scenes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Curb Your Enthusiasm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Da Ali G Show.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Damages.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Daredevil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Deadwood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Dekalog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Dexter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Doctor Thorne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Entourage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Family Ties.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Fargo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Fear The Walking Dead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Firefly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Flying Blind.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Fraiser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Freaks And Geeks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/GLOW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Game Of Thrones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Girls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Homeland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Horace and Pete's.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/House Of Cards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/House.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/I Claudius.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/I Love Lucy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/It's Garry Shandling's Show.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Jessica Jones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Justified.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Lonesome Dove.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Lost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Louie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Lucky Louie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Luke Cage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Mad Men.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Married With Children.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Mr Show With Bob And David.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Night Court.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Northern Exposure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/On The Air.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Person Of Interest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Planet Earth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Pride And Prejudice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Ray Donovan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Revenge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Rome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Scener ur ett Ñktenskap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Seinfeld.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Sex &amp; The City.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Shameless.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Show Me A Hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Slings And Arrows.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Smallville.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Sons Of Anarchy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/South Park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Spaced.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Spartacus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Star Trek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Stranger Things.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Americans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Civil War.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Defenders.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Honeymooners.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Larry Sanders Show.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Man In The High Castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Marvelous Mrs Maisel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Punisher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Shield.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Simpsons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Sopranos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Strain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Twilight Zone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Walking Dead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Way We Live Now.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/The Wire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Three's Company.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Top Of The Lake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/True Blood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Twin Peaks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Tyrant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/V.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Serie/Welt Am Draht.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/FletnixLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/MediaReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/MediaReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/ViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FletnixLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FletnixLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MediaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MediaReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ViewController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/view.fxml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +230,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GrProprojekt$Viewer__2_.ic" NAME="Viewer (2) Coverage Results" MODIFIED="1544622708637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>view.*</FILTER>
+    </SUITE>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -32,30 +252,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="1" />
-          <entry key="java" value="17" />
+          <entry key="class" value="1" />
+          <entry key="fxml" value="4" />
+          <entry key="java" value="28" />
+          <entry key="jpg" value="1" />
           <entry key="md" value="1" />
-          <entry key="png" value="1" />
+          <entry key="png" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="17" />
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="28" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="372" />
-          <entry key="java" value="2490" />
+          <entry key="dummy" value="7" />
+          <entry key="fxml" value="2597" />
+          <entry key="java" value="3517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2490" />
-          <entry key="XML" value="372" />
+          <entry key="JAVA" value="3517" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="2597" />
         </counts>
       </usages-collector>
     </session>
@@ -114,95 +339,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Film.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Serie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Media.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-              <folding>
-                <element signature="e#1985#1986#0" expanded="true" />
-                <element signature="e#2020#2021#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MediaReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#4044#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="200" column="37" selection-start-line="200" selection-start-column="37" selection-end-line="200" selection-end-column="37" />
+            <state relative-caret-position="7">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3227#3228#0" expanded="true" />
-                <element signature="e#3277#3278#0" expanded="true" />
-                <element signature="e#6491#6492#0" expanded="true" />
-                <element signature="e#6548#6549#0" expanded="true" />
-                <element signature="e#5663#5664#0" expanded="true" />
-                <element signature="e#5691#5692#0" expanded="true" />
+                <element signature="e#7405#7406#0" expanded="true" />
+                <element signature="e#7433#7434#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/ViewController.java">
+        <entry file="file://$PROJECT_DIR$/src/view/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-5">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,10 +365,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/view.fxml">
+        <entry file="file://$PROJECT_DIR$/src/view/Register.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="161">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Menu.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/AlertHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Login.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="62" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -248,12 +458,21 @@
         <option value="$PROJECT_DIR$/src/Picture.java" />
         <option value="$PROJECT_DIR$/src/Controller.java" />
         <option value="$PROJECT_DIR$/src/view/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Viewer.java" />
         <option value="$PROJECT_DIR$/src/view.fxml" />
-        <option value="$PROJECT_DIR$/src/view/view.fxml" />
         <option value="$USER_HOME$/Downloads/Login/src/login/Login.java" />
+        <option value="$PROJECT_DIR$/src/MediaReader.java" />
+        <option value="$PROJECT_DIR$/src/view/view.fxml" />
         <option value="$PROJECT_DIR$/src/view/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/view/ViewerController.java" />
+        <option value="$PROJECT_DIR$/src/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/view/AlertHelper.java" />
+        <option value="$PROJECT_DIR$/src/view/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/view/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/view/Register.fxml" />
+        <option value="$PROJECT_DIR$/src/view/Login.fxml" />
         <option value="$PROJECT_DIR$/src/view/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/view/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/view/Menu.fxml" />
       </list>
     </option>
   </component>
@@ -264,10 +483,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,13 +544,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544540685153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544689831341" />
     <property name="last_opened_file_path" value="B:/dumb shit/Swing Workshop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/view/Film" />
+      <recent name="$PROJECT_DIR$/src/view/Series" />
+      <recent name="$PROJECT_DIR$/src/view/pictures" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/view" />
     </key>
@@ -400,6 +623,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Viewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Viewer" />
+      <module name="GrProprojekt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Viewer" />
@@ -410,10 +646,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Viewer (2)" />
+        <item itemvalue="Application.Viewer" />
+        <item itemvalue="Application.Viewer (2)" />
         <item itemvalue="Application.Picture" />
         <item itemvalue="Application.Viewer (1)" />
-        <item itemvalue="Application.Viewer" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +667,7 @@
       <workItem from="1543320632714" duration="270000" />
       <workItem from="1543919357751" duration="6371000" />
       <workItem from="1544090772817" duration="7862000" />
-      <workItem from="1544520851209" duration="13559000" />
+      <workItem from="1544520851209" duration="34505000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1543320758475</created>
@@ -458,14 +694,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32231000" />
+    <option name="totallyTimeSpent" value="53177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931413" visible="true" weight="0.16738197" />
+      <window_info id="Structure" order="1" sideWeight="0.5006859" side_tool="true" weight="0.16738197" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -473,7 +709,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -484,6 +720,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50236595" side_tool="true" weight="0.32776618" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49763408" weight="0.18518518" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -574,34 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="3206" selection-start-line="3206" selection-end-line="3206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding>
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MediaReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FletnixLogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Login/src/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -613,36 +822,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/view.fxml">
+    <entry file="file://$PROJECT_DIR$/src/view/FletnixLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginControler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="35" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ViewController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="887">
+          <caret line="2578" selection-start-line="2578" selection-end-line="2578" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="576" selection-start-line="576" selection-end-line="576" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1183">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MediaReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
+    <entry file="file://$PROJECT_DIR$/src/view/Register.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="200" column="37" selection-start-line="200" selection-start-column="37" selection-end-line="200" selection-end-column="37" />
+        <state relative-caret-position="161">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3227#3228#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#6491#6492#0" expanded="true" />
-            <element signature="e#6548#6549#0" expanded="true" />
-            <element signature="e#5663#5664#0" expanded="true" />
-            <element signature="e#5691#5692#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Serie/Fargo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/AlertHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Menu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="82" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#7433#7434#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<GridPane fx:controller="view.RegisterController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center"
+          hgap="10" vgap="10">
+    <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+    <!--Header Image-->
+    <ImageView fx:id="fletnixLogo" GridPane.columnIndex="0"
+               GridPane.rowIndex="0" GridPane.columnSpan="2"
+               GridPane.rowSpan="1" GridPane.halignment="CENTER" >
+        <Image fx:id="logo" preserveRatio="true" url="/view/FletnixLogo.png" requestedHeight="90"/>
+    </ImageView>
+    <!-- Add Full name Label -->
+    <Label text="Full Name: " GridPane.columnIndex="0"
+           GridPane.rowIndex="1" >
+    </Label>
+    <!--Add Full Name Text Field -->
+    <TextField fx:id="fullnameField" prefHeight="40"
+               GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <!-- Add username Label -->
+    <Label text="Username: " GridPane.columnIndex="0"
+           GridPane.rowIndex="2" >
+    </Label>
+    <!--Add username Text Field -->
+    <TextField fx:id="nameField" prefHeight="40"
+               GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <!--Add Password Label-->
+    <Label text="Password: " GridPane.columnIndex="0"
+           GridPane.rowIndex="3" >
+    </Label>
+    <!--Add Password Field-->
+    <PasswordField fx:id="passwordField" prefHeight="40"
+                   GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <!--Add rePassword Label-->
+    <Label text="Confirm Password: " GridPane.columnIndex="0"
+           GridPane.rowIndex="4" >
+    </Label>
+    <!--Add rePassword Field-->
+    <PasswordField fx:id="repasswordField" prefHeight="40"
+                   GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <HBox spacing="10" alignment="CENTER"
+          GridPane.columnIndex="1" GridPane.rowIndex="6">
+
+        <!-- Add Register Button -->
+        <Button fx:id="loginButton" text="Return"
+                prefWidth="100" prefHeight="40"
+                GridPane.halignment="CENTER"
+                onAction="#handleLoginButtonAction">
+        </Button>
+
+        <!-- Add Login Button -->
+        <Button fx:id="createButton" text="Create"
+                prefWidth="100" prefHeight="40"
+                GridPane.halignment="CENTER"
+                onAction="#handleCreateButtonAction">
+        </Button>
+
+    </HBox>
+</GridPane>
