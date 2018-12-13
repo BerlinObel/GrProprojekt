@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f8b8694-17cd-41be-8bd9-2b52e17c1cfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Film.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Media$GENRE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Media.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/MediaReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Serie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/Sorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GrProprojekt/view/Viewer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MediaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MediaReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Viewer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,12 +56,12 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="fxml" value="3047" />
-          <entry key="java" value="5383" />
+          <entry key="java" value="5408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5383" />
+          <entry key="JAVA" value="5408" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="3047" />
         </counts>
@@ -139,7 +122,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
@@ -205,8 +188,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="138">
+              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,11 +197,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="223">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -303,9 +286,9 @@
         <option value="$PROJECT_DIR$/src/view/Sorter.java" />
         <option value="$PROJECT_DIR$/src/view/MediaReader.java" />
         <option value="$PROJECT_DIR$/src/view/Media.java" />
-        <option value="$PROJECT_DIR$/src/view/MenuController.java" />
         <option value="$PROJECT_DIR$/src/view/Menu.fxml" />
         <option value="$PROJECT_DIR$/src/view/Main.java" />
+        <option value="$PROJECT_DIR$/src/view/MenuController.java" />
       </list>
     </option>
   </component>
@@ -378,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544706590512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544706898462" />
     <property name="last_opened_file_path" value="B:/dumb shit/Swing Workshop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -502,7 +485,7 @@
       <workItem from="1543320632714" duration="270000" />
       <workItem from="1543919357751" duration="6371000" />
       <workItem from="1544090772817" duration="7862000" />
-      <workItem from="1544520851209" duration="48691000" />
+      <workItem from="1544520851209" duration="48936000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1543320758475</created>
@@ -539,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544697341944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="media">
+      <created>1544706662011</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544706662011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67363000" />
+    <option name="totallyTimeSpent" value="67608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1440" height="821" extended-state="0" />
@@ -839,30 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Media.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-882">
           <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -888,6 +858,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

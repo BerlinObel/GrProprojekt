@@ -11,6 +11,7 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.ArrayList;
 
 public class MenuController {
     public Button favoritesButton;
@@ -22,7 +23,7 @@ public class MenuController {
     public VBox box1, box2, box3, box4, box5, box6, box7, box8, box9, box10, box11, box12;
     public ImageView img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12;
     public Label text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12;
-
+    
 
     public void handleFavoritesButtonAction(ActionEvent actionEvent) {
     }

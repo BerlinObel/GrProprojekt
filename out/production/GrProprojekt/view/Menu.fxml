@@ -177,7 +177,6 @@
                 </Button>
                 <Label text="Fargo" fx:id="text10"/>
             </VBox>
-            <Button>
             <VBox fx:id="box11" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
                     <graphic>
@@ -188,7 +187,6 @@
                 </Button>
                 <Label text="Fargo" fx:id="text11"/>
             </VBox>
-            </Button>
             <VBox fx:id="box12" spacing="10">
                 <Button prefWidth="140" prefHeight="209">
                     <graphic>
