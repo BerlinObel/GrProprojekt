@@ -3,6 +3,7 @@ package view;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +38,7 @@ public class MediaReader {
                     medias.add(m);
                 }
                 if(info.length == 5){
-                    String[] yearinfo = info[1].split(" -");
+                    String[] yearinfo = info[1].split("-");
                     int startyear = Integer.parseInt(yearinfo[0].trim());
                     int endyear = 2018;
                     if(yearinfo.length == 2 && !yearinfo[1].trim().equals("")){

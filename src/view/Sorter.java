@@ -2,6 +2,7 @@ package view;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class Sorter {
     public void titleAZ(List<Media> medias) {
         medias.sort((media1, media2) -> media1.getTitle().compareTo(media2.getTitle()));

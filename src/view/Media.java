@@ -85,4 +85,5 @@ public abstract class Media {
     public void addGenre(GENRE newgenre) {
         genre.add(newgenre);
     }
+
 }

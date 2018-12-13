@@ -52,25 +52,25 @@
             <Label text="Filters" >
             </Label>
             <GridPane hgap="10" vgap="10">
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="adv" text="Adventure" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="act" text="Action" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="bio" text="Biography" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="com" text="Comedy" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="cri" text="Crime" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="dra" text="Drama" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="fam" text="Family" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="7" fx:id="fan" text="Fantasy" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="8" fx:id="fn" text="view.Film-noir" selected="true"/>
-                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="9" fx:id="his" text="History" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="hor" text="Horror" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="mus" text="Musical" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="mys" text="Mystery" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="rom" text="Romance" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="sci" text="Sci-Fi" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="spo" text="Sport" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="thr" text="Thriller" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="war" text="War" selected="true"/>
-                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="wes" text="Western" selected="true"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="adv" text="Adventure"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="act" text="Action"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="bio" text="Biography"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="com" text="Comedy"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="cri" text="Crime"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="dra" text="Drama"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="fam" text="Family"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="7" fx:id="fan" text="Fantasy"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="8" fx:id="fn" text="view.Film-noir"/>
+                <CheckBox GridPane.columnIndex="0" GridPane.rowIndex="9" fx:id="his" text="History"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="hor" text="Horror"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="mus" text="Musical"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="mys" text="Mystery"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="rom" text="Romance"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="sci" text="Sci-Fi"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="spo" text="Sport"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="thr" text="Thriller"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="war" text="War"/>
+                <CheckBox GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="wes" text="Western"/>
             </GridPane>
         </VBox>
     </left>
@@ -78,78 +78,124 @@
         <FlowPane orientation="HORIZONTAL" prefWrapLength="900" vgap="25" hgap="25">
             <padding><Insets top="30" right="50" bottom="25" left="50"/></padding>
             <VBox fx:id="box1" spacing="10">
-                <ImageView >
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209" >
+                    <graphic>
+                        <ImageView fx:id="img1" >
+                        <Image url="/view/Serie/24.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="24" fx:id="text1"/>
             </VBox>
             <VBox fx:id="box2" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209" mnemonicParsing="false">
+                    <graphic>
+                        <ImageView fx:id="img2">
+                            <Image url="/view/Film/12 Angry Men.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="12 Angry Men" fx:id="text2"/>
             </VBox>
             <VBox fx:id="box3" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img3">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="2001 A Space Odessey" fx:id="text3"/>
             </VBox>
             <VBox fx:id="box4" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209" maxHeight="209" maxWidth="140" >
+                    <graphic>
+                        <ImageView fx:id="img4">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text4"/>
             </VBox>
             <VBox fx:id="box5" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img5">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text5"/>
             </VBox>
             <VBox fx:id="box6" spacing="10">
-                <ImageView fx:id="box6img" >
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img6">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text6"/>
             </VBox>
             <VBox fx:id="box7" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img7">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text7"/>
             </VBox>
             <VBox fx:id="box8" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img8">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text8"/>
             </VBox>
             <VBox fx:id="box9" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img9">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text9"/>
             </VBox>
             <VBox fx:id="box10" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img10">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text10"/>
             </VBox>
-            <Button>
             <VBox fx:id="box11" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img11">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text11"/>
             </VBox>
-            </Button>
             <VBox fx:id="box12" spacing="10">
-                <ImageView>
-                    <Image preserveRatio="true" url="/view/Film/Fargo.jpg" requestedHeight="209"/>
-                </ImageView>
-                <Label text="Fargo"/>
+                <Button prefWidth="140" prefHeight="209">
+                    <graphic>
+                        <ImageView fx:id="img12">
+                            <Image url="/view/Film/2001 A Space Odessey.jpg" preserveRatio="true"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label text="Fargo" fx:id="text12"/>
             </VBox>
         </FlowPane>
     </center>

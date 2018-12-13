@@ -32,7 +32,7 @@ public class Viewer extends Application {
             Parent root = loader.load();
             primaryStage.setTitle("Fletnix");
             primaryStage.setScene(new Scene(root, 350, 300));
-            primaryStage.setResizable(true);
+            primaryStage.setResizable(false);
             primaryStage.show();
         }
 
