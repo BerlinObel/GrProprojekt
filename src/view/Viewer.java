@@ -18,17 +18,24 @@ import javafx.event.EventHandler;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.IOException;
 
-    public class Viewer extends Application {
+
+public class Viewer extends Application {
+        private Stage primaryStage;
+        private Parent root;
         @Override
         public void start(Stage primaryStage) throws Exception {
-            Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
+            this.primaryStage = primaryStage;
+            FXMLLoader loader = new FXMLLoader(getClass()
+                    .getResource("Login.fxml"));
+            Parent root = loader.load();
             primaryStage.setTitle("Fletnix");
-            primaryStage.setScene(new Scene(root, 1400, 800));
+            primaryStage.setScene(new Scene(root, 350, 300));
             primaryStage.setResizable(true);
             primaryStage.show();
-
         }
+
     public static void main(String[] args) {
         launch(args);
     }

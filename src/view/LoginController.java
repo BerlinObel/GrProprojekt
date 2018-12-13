@@ -8,11 +8,16 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Window;
 import javafx.scene.Parent;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.fxml.FXMLLoader;
+
+import java.io.IOException;
+
 
 public class LoginController {
 
@@ -28,32 +33,24 @@ public class LoginController {
     @FXML
     private Button registerButton;
 
-    @FXML
-    protected void handleLoginButtonAction(ActionEvent event) {
-        Window owner = loginButton.getScene().getWindow();
-        if(nameField.getText().isEmpty()) {
-            AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Error!",
-                    "Please enter your name");
-            return;
-        }
-        if(passwordField.getText().isEmpty()) {
-            AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Error!",
-                    "Please enter a password");
-            return;
-        }
+    private Stage stage;
 
-        AlertHelper.showAlert(Alert.AlertType.CONFIRMATION, owner, "Registration Successful!",
-                "Welcome " + nameField.getText());
+    @FXML
+    protected void handleLoginButtonAction(ActionEvent event) throws IOException {
+        stage = (Stage) loginButton.getScene().getWindow();
+        BorderPane root;
+        root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
+        Scene scene = new Scene(root,1400,800);
+        stage.setScene(scene);
+        stage.centerOnScreen();
     }
-    @FXML
-    protected void handleRegisterButtonAction(ActionEvent actionEvent) throws Exception {
-        Stage stage;
-        Parent root;
-        stage = (Stage) registerButton.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("FXML2.fxml"));
 
+    @FXML
+    protected void handleRegisterButtonAction(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) registerButton.getScene().getWindow();
+        GridPane root;
+        root = FXMLLoader.load(getClass().getResource("Register.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.show();
     }
 }

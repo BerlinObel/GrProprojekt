@@ -53,14 +53,14 @@
     <HBox spacing="10" alignment="CENTER"
           GridPane.columnIndex="1" GridPane.rowIndex="6">
 
-        <!-- Add Register Button -->
-        <Button fx:id="loginButton" text="Return"
+        <!-- Add Return Button -->
+        <Button fx:id="returnButton" text="Return"
                 prefWidth="100" prefHeight="40"
                 GridPane.halignment="CENTER"
-                onAction="#handleLoginButtonAction">
+                onAction="#handleReturnButtonAction">
         </Button>
 
-        <!-- Add Login Button -->
+        <!-- Add Create Button -->
         <Button fx:id="createButton" text="Create"
                 prefWidth="100" prefHeight="40"
                 GridPane.halignment="CENTER"

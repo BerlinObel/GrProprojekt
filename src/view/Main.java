@@ -1,9 +1,11 @@
+package view;
+
 import java.io.IOException;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MediaReader mr = new MediaReader("C:\\Users\\Bruger\\Desktop\\GrProprojekt-master\\src\\Media.txt");
+        MediaReader mr = new MediaReader("C:\\Users\\Bruger\\Desktop\\GrProprojekt-master\\src\\view.Media.txt");
         try{
             List<Media> medias = mr.read();
             Sorter s = new Sorter();
